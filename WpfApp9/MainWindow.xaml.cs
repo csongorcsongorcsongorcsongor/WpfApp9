@@ -71,6 +71,7 @@ namespace WpfApp9
             l.Add(true);
             l.Add('c');
             l.Add(55.555);
+            l.Add(new TextBox());
             foreach (object item in l)
             {
 

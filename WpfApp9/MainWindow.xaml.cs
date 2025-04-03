@@ -41,6 +41,41 @@ namespace WpfApp9
                 everything.Children.Add(onelabel);
             }
         }
+        void masik()
+        {
+            List<epitoanyag> asd = new List<epitoanyag>();
+            asd.Add(new fa {nev = "Tölgy Fa", kemenyseg= 5f, suly = 30.25, ar=54900, anyag = "Tölgy"});
+            asd.Add(new vas { vtipus = "Rozsdamentes Acél", suruseg = 5f, ar = 249000, suly = 2400, nev = "BMW" });
+            asd.Add(new tegla { ttipus = "Piros Tégla", nev = "Tégla", ar=24000, suly=500, szin="Piros" });
+
+            //foreach (epitoanyag item in asd)
+            //{
+            //    if (item is fa)
+            //    {
+
+            //        MessageBox.Show((item as fa).anyag);
+            //    }
+            //    else if(item is vas){
+            //        MessageBox.Show((item as vas).vtipus);
+            //    }
+            //    else if(item is tegla)
+            //    {
+            //        MessageBox.Show((item as tegla).ttipus);
+            //    }
+            //    item.ar += 50;
+            //}
+
+            List<object> l = new List<object>();
+            l.Add(10);
+            l.Add("Kolbasz");
+            l.Add(true);
+            l.Add('c');
+            l.Add(55.555);
+            foreach (object item in l)
+            {
+
+            }
+        }
         void EditClick(object s, EventArgs e)
         {
             Label ol = s as Label;

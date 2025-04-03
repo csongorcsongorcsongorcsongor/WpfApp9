@@ -72,6 +72,7 @@ namespace WpfApp9
             l.Add('c');
             l.Add(55.555);
             l.Add(new TextBox());
+            l.Add(new Label() { Content = "kolbasz finom" });
             foreach (object item in l)
             {
 
